@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/pge_sp_emissao_gare-mcp",
+  "title": "Procuradoria Geral do Estado SP: Emissão de GARE de Liquidação",
+  "description": "Procuradoria Geral do Estado SP: Issuance de GARE de Liquidação, official-source lookup. Platform-ho",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/pge_sp_emissao_gare-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_pge_sp_emissao_gare"
+    }
+  ]
+}
